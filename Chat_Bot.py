@@ -10,4 +10,4 @@ def Greeting ():
 
 Greeting()
 
-input()
+input(
