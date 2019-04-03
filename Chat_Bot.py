@@ -7,7 +7,5 @@ def Greeting ():
         if sentence in GREETING_KEYWORDS:
             print(random.choice(GREETING_RESPONSES))
     greetkey()
-
 Greeting()
-
 input()
