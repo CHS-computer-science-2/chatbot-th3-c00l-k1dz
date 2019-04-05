@@ -6,4 +6,5 @@ def main():
     x=0
     while x==0:
         input("Type here you must: ")
+
 main()
