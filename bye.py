@@ -8,4 +8,5 @@ def farewell ():
             print(random.choice(FAREWELL_RESPONSES))
     bye()
 farewell()
+
 input()
