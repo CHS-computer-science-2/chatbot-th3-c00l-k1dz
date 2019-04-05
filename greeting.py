@@ -8,4 +8,5 @@ def Greeting ():
             print(random.choice(GREETING_RESPONSES))
     greetkey()
 Greeting()
+
 input()
