@@ -1,4 +1,5 @@
 import random
+
 def Greeting ():
     def greetkey():
         sentence = input("Greeting You Must Enter: ")
@@ -9,4 +10,13 @@ def Greeting ():
     greetkey()
 Greeting()
 
-input()
+def main():
+    GREETING_RESPONSES = ["take me to your leader","greetings earthling", "Nano Nano", "⊑⟒⌰⌰⍜"]
+    FAREWELL_RESPONSES = ["peace","farewell earthling", "bye", "☌⍜⍜⎅⏚⊬⟒"]
+    print(random.choice(GREETING_RESPONSES))
+    # all checks go here \/
+    x=0
+    while x==0:
+        input("Type here you must: ")
+
+main()
