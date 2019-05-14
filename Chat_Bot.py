@@ -6,15 +6,12 @@ def greeting(sentence):
     if sentence in GREETING_KEYWORDS:
         print(random.choice(GREETING_RESPONSES))
     return
-
-
 def farewell(sentence):
     FAREWELL_KEYWORDS = ("bye", "goodbye", "farewell", "see you", "see ya")
     FAREWELL_RESPONSES = ["peace","farewell earthling", "bye", "☌⍜⍜⎅⏚⊬⟒"]
     if sentence in FAREWELL_KEYWORDS:
         print(random.choice(FAREWELL_RESPONSES))
     return
-
 def construct_response(sentence):
     resp = ["*nods head*","interstellar", "out of this world", "galatical", "ok"]
     print(random.choice(resp))
@@ -34,6 +31,9 @@ def main():
                  'begin', 'seem', 'help', 'talk', 'turn', 'start', 'show', 'hear', 'play', 'run', 'move', 'like', 'believe', 'hold', 'bring',
                  'happen', 'write', 'provide', 'sit', "I'm"]
     quest_check = ["?", "how", "what", "when", "where", "who", "why"]
+def main():
+    GREETING_KEYWORDS = ("hello", "hi", "greetings", "sup", "what's up")
+    FAREWELL_KEYWORDS = ("bye", "goodbye", "farewell", "see you", "see ya")
     # all checks go here \/
     x=0
     while x==0:
