@@ -7,6 +7,7 @@ def greeting(sentence):
         print(random.choice(GREETING_RESPONSES))
     return
 
+
 def farewell(sentence):
     FAREWELL_KEYWORDS = ("bye", "goodbye", "farewell", "see you", "see ya")
     FAREWELL_RESPONSES = ["peace","farewell earthling", "bye", "☌⍜⍜⎅⏚⊬⟒"]
