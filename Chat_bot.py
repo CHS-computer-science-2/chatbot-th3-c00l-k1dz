@@ -1,7 +1,7 @@
 import random
 
 def greeting(sentence):
-    GREETING_KEYWORDS = ("hello", "hi", "greetings", "sup", "what's up")
+    GREETING_KEYWORDS = ("hello", "hi", "greetings", "sup", "what's up","yo")
     GREETING_RESPONSES = ["take me to your leader","greetings earthling", "Nano Nano", "⊑⟒⌰⌰⍜"]
     if sentence in GREETING_KEYWORDS:
         print(random.choice(GREETING_RESPONSES))
@@ -15,23 +15,26 @@ def farewell(sentence):
     return
 
 def construct_response(sentence):
-    resp = ["*nods head*","interstellar", "out of this world", "galatical", "ok"]
+    resp = ["*nods head*","interstellar", "out of this world", "galatical", "ok", "like the c00l-k1dz of your plannet say L..O..L","The coolest of beans","But like why though","I don't care I'm just here to take your plannet"]
     print(random.choice(resp))
     return
 
 def question(sentence):
     quest_resp = ["*sarcasm* "+sentence+" What kind of \nquestion is that ","*nothing*","Answer that I won't",
-                  "I didn't travel thousands of \nlight years to answer your silly questions", "Why exactly do you want to know that?","Classified"]
+                  "I didn't travel thousands of \nlight years to answer your silly questions", "Why exactly do you want to know that?","Classified","Stupid your question is.
+                  "]
     print(random.choice(quest_resp))
     return
+
+
                 
 def main():
-    GREETING_KEYWORDS = ("hello", "hi", "greetings", "sup", "what's up")
+    GREETING_KEYWORDS = ("hello", "hi", "greetings", "sup", "what's up","yo")
     FAREWELL_KEYWORDS = ("bye", "goodbye", "farewell", "see you", "see ya")
     verb_list = ['be', 'am', 'is', 'run', 'have', 'do', 'say', 'go', 'get', 'make', 'know', 'think', 'take', 'see', 'come', 'want', 'look',
                  'use', 'find', 'give', 'tell', 'work', 'call', 'try', 'ask', 'need', 'feel', 'become', 'leave', 'put', 'mean', 'keep', 'let',
                  'begin', 'seem', 'help', 'talk', 'turn', 'start', 'show', 'hear', 'play', 'run', 'move', 'like', 'believe', 'hold', 'bring',
-                 'happen', 'write', 'provide', 'sit', "I'm"]
+                 'happen', 'write', 'provide', 'sit', "I'm", "yes", "no"]
     quest_check = ["?", "how", "what", "when", "where", "who", "why"]
     # all checks go here \/
     x=0
@@ -51,3 +54,5 @@ def main():
                 construct_response(word)
 
 main()
+
+
